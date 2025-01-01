@@ -15,12 +15,12 @@ export default function Header() {
         <div className="flex justify-between items-center py-3">
           <div className="pl-2">
             <Link href="/" className="text-2xl font-bold text-teal-600">
-              PawRescue
+              PawHope
             </Link>
           </div>
 
           <div
-            className="flex flex-col md:hidden space-y-1 pr-2 mr-2"
+            className="flex flex-col md:hidden space-y-1 pr-2"
             onClick={toggleMenu}
           >
             <span className="w-8 h-1 bg-gray-700 rounded-md"></span>
