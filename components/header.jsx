@@ -20,7 +20,7 @@ export default function Header() {
           </div>
 
           <div
-            className="flex flex-col md:hidden space-y-1 pl-2"
+            className="flex flex-col md:hidden space-y-1 pr-2 mr-2"
             onClick={toggleMenu}
           >
             <span className="w-8 h-1 bg-gray-700 rounded-md"></span>
