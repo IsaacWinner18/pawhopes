@@ -3,9 +3,10 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
 const dogs = [
-  { id: "'1'", name: "'Bella'", description: "'Recovering after a car accident'", imageUrl: "'/placeholder.svg?height=300&width=300'" },
-  { id: "'2'", name: "'Max'", description: "'Rescued from an abusive home'", imageUrl: "'/placeholder.svg?height=300&width=300'" },
-  { id: "'3'", name: "'Charlie'", description: "'Found abandoned in a park'", imageUrl: "'/placeholder.svg?height=300&width=300'" },
+  { id: "'1'", name: "Bella", description: "'Recovering after a car accident'", imageUrl: "/bella-dog.jpg" },
+  { id: "'2'", name: "Max", description: "'Rescued from an abusive home'", imageUrl: "/Adopt-Shelter-Dog-Large.jpg" },
+  { id: "'3'", name: "Charlie", description: "'Found abandoned in a park'", imageUrl: "/rescue-four.jpg" },
+  { id: "'4'", name: "Abel", description: "'Found abandoned in a park'", imageUrl: "/rescue-three.jpg" },
 ]
 
 export default function GallerySection() {

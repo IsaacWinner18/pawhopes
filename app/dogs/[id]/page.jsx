@@ -7,9 +7,9 @@ const getDog = (id) => ({
   id,
   name: "Bella",
   story: "Bella was found injured on the side of road after a car accident. Despite her traumatic experience, she has shown incredible resilience and loving personality. With proper care attention, Bella is way to full recovery looking for forever home that can provide with love deserves.",
-  imageUrl: "/placeholder.svg?height=400&width=600",
+  imageUrl: "/bella-dog.jpg",
   targetDonation: 5000,
-  currentDonation: 3750,
+  currentDonation: 750,
 })
 
 export default function DogProfile({

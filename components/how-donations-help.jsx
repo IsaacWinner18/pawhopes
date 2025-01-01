@@ -4,25 +4,27 @@ const successStories = [
   { 
     id: 1, 
     name: "Rocky", 
-    beforeImage: "/placeholder.svg?height=300&width=300", 
-    afterImage: "/placeholder.svg?height=300&width=300",
+    beforeImage: "/transformation.jpg", 
     story: "Rocky was found malnourished and injured. After weeks of care love, he\'s now healthy happy in his forever home."
   },
 ]
 
 export default function HowDonationsHelp() {
   return (
-    (<section id="how-donations-help" className="py-16">
-      <div className="container mx-auto px-6">
+    (<section id="how-donations-help" className="py-16 bg-white">
+      <div className="container mx-auto px-3">
         <h2 className="text-3xl font-bold text-center mb-8">How Your Donations Help</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div>
-            <h3 className="text-2xl font-semibold mb-4">Your Support Provides:</h3>
-            <ul className="list-disc list-inside space-y-2">
-              <li>Veterinary care for injured and sick dogs</li>
-              <li>Nutritious food and shelter</li>
-              <li>Training and socialization</li>
-              <li>Rescue operations to save dogs in danger</li>
+           
+            <ul className="list-inside space-y-4 py-12 px-2 border-2 md:border-0 border-red-100 border-solid">
+              <li className="flex">
+                <Image src="/corgi.png" alt="corgi" width={30} height={10} />
+                Veterinary care for injured and sick dogs
+                </li>
+              <li className="flex"> <Image src="/corgi.png" alt="corgi" width={30} height={10} /> Nutritious food and shelter</li>
+              <li className="flex"> <Image src="/corgi.png" alt="corgi" width={30} height={10} /> Training and socialization</li>
+              <li className="flex"> <Image src="/corgi.png" alt="corgi" width={30} height={10} /> Rescue operations to save dogs in danger</li>
             </ul>
           </div>
           <div>
@@ -34,14 +36,8 @@ export default function HowDonationsHelp() {
                   <Image
                     src={story.beforeImage}
                     alt={`${story.name} before`}
-                    width={150}
-                    height={150}
-                    className="rounded" />
-                  <Image
-                    src={story.afterImage}
-                    alt={`${story.name} after`}
-                    width={150}
-                    height={150}
+                    width={280}
+                    height={280}
                     className="rounded" />
                 </div>
                 <p className="text-gray-600">{story.story}</p>
