@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Switch } from "@/components/ui/switch"
+import { Link } from 'next/link';
 
 export default function DonationOptions() {
   const [donationType, setDonationType] = useState("one-time")
@@ -60,7 +61,9 @@ export default function DonationOptions() {
               placeholder="Your message of support" />
           </div>
           
+          <a href="https://t.me/RyanPawHopeOrganization">
           <Button type="submit" className="w-full">Donate Now</Button>
+          </a>
         </form>
       </div>
     </section>)

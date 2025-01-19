@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -11,9 +12,11 @@ export default function HeroSection() {
       <div className="relative z-20 text-center">
         <h1 className="text-5xl font-bold mb-4 px-1">Give Them Hope, One Paw at a Time</h1>
         <p className="text-xl mb-8 px-4 md:px-0 md:text-2xl">Help us rescue and care for dogs in need</p>
+        <a href="https://t.me/RyanPawHopeOrganization">
         <Button size="lg" className="bg-teal-500 hover:bg-teal-600 text-white font-bold text-xl">
           Donate Now
         </Button>
+        </a>
       </div>
     </section>)
   );

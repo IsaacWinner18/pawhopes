@@ -1,9 +1,9 @@
 import Link from "next/link"
-import { Facebook, Twitter, Instagram } from "lucide-react"
+import { Facebook, Twitter, Instagram, Telegram } from "lucide-react"
 
 export default function Footer() {
   return (
-    (<footer className="bg-gray-800 text-white py-8">
+    <footer className="bg-gray-800 text-white py-8">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
@@ -16,7 +16,7 @@ export default function Footer() {
               <li><Link href="/" className="text-sm hover:underline">Home</Link></li>
               <li><Link href="#gallery" className="text-sm hover:underline">Our Dogs</Link></li>
               <li><Link href="#how-donations-help" className="text-sm hover:underline">How We Help</Link></li>
-              <li><Link href="#" className="text-sm hover:underline">Donate</Link></li>
+              <li><a href="https://t.me/RyanPawHopeOrganization" className="text-sm hover:underline">Donate</a></li>
             </ul>
           </div>
           <div>
@@ -25,6 +25,7 @@ export default function Footer() {
               <Link href="#" className="hover:text-teal-400"><Facebook size={24} /></Link>
               <Link href="#" className="hover:text-teal-400"><Twitter size={24} /></Link>
               <Link href="#" className="hover:text-teal-400"><Instagram size={24} /></Link>
+              <a href="https://t.me/RyanPawHopeOrganization" className="hover:text-teal-400">Telegram</a>
             </div>
           </div>
           <div>
@@ -48,7 +49,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </footer>)
+    </footer>
   );
 }
 
