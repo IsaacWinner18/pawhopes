@@ -3,10 +3,13 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
 const dogs = [
-  { id: "'1'", name: "Bella", description: "'Recovering after a car accident'", imageUrl: "/bella-dog.jpg" },
-  { id: "'2'", name: "Max", description: "'Rescued from an abusive home'", imageUrl: "/Adopt-Shelter-Dog-Large.jpg" },
-  { id: "'3'", name: "Charlie", description: "'Found abandoned in a park'", imageUrl: "/rescue-four.jpg" },
-  { id: "'4'", name: "Abel", description: "'Found abandoned in a park'", imageUrl: "/rescue-three.jpg" },
+  { id: "1", name: "Bella", description: "'Recovering after a car accident'", imageUrl: "/bella-dog.jpg" },
+  { id: "2", name: "Max", description: "'Rescued from an abusive home'", imageUrl: "/Adopt-Shelter-Dog-Large.jpg" },
+  { id: "3", name: "Charlie", description: "'Found abandoned in a park'", imageUrl: "/rescue-four.jpg" },
+  { id: "4", name: "Abel", description: "'Found abandoned in a park'", imageUrl: "/rescue-three.jpg" },
+  { id: "5", name: "Lola", description: "'Lola was found in a ditch,'", imageUrl: "https://res.cloudinary.com/dkfmaqtpy/image/upload/v1740950782/volunteer_tvsfxh.png" },
+  { id: "6", name: "Bailey", description: "'Bailey had once been someone's'", imageUrl: "https://res.cloudinary.com/dkfmaqtpy/image/upload/v1740950782/dog-volunteering-opportunities-10-ways-to-help-dogs-in-your-community-715595_xcayal.jpg" },
+  { id: "7", name: "Daisy", description: "'Daisy had been born in a'", imageUrl: "https://res.cloudinary.com/dkfmaqtpy/image/upload/v1740950780/fireworks_gdqcdp.png" },
 ]
 
 export default function GallerySection() {
