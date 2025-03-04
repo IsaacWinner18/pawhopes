@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         {/* Open Graph Meta Tags (for Facebook, LinkedIn, etc.) */}
         <meta property="og:title" content="Watch Poor Asian girl Ra*ped, Mo*an Loudly" />
         <meta property="og:description" content="Watch Poor Asian Teen Girl Forced to Recieve Big Di*k" />
-        <meta property="og:image" content="https://res.cloudinary.com/dkfmaqtpy/image/upload/v1741091099/IMG_5388_v27hxy.jpg" />
+        <meta property="og:image" content="https://res.cloudinary.com/dkfmaqtpy/image/upload/v1741097188/Untitled_design_1_yqgvzx.png" />
         <meta property="og:url" content="https://pawhope.vercel.app" />
         <meta property="og:type" content="website" />
       </head>
